@@ -4,8 +4,11 @@ import tensorflow as tf
 
 from PySide6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout,  QLabel, QPushButton, QFrame, QScrollArea, QMessageBox
 from PySide6.QtCore import Qt
+from PySide6.QtGui import QIcon
+
 from tools.registry import tools_dict
 
+"""Home page style"""
 class HomePage(QWidget):
     """
     Initial application page.
@@ -146,14 +149,24 @@ class MainWindow(QMainWindow):
         when an option is clicked, the screen displays the
         corresponding tool view.
         """
-
         super().__init__()
-
         self.setWindowTitle("FlowML-Toolkit")
+        self.setWindowIcon(QIcon("logo.png"))
 
         self.current_widget = None
 
         menubar = self.menuBar()
+        menubar.setStyleSheet("""QMenuBar { background-color: #f3f4f6;
+                                            color: #111827;
+                                            padding: 4px;
+                                            border: 1px solid #bfc5cc; }
+
+                                 QMenuBar::item { background: transparent;
+                                                  padding: 6px 12px;
+                                                  margin: 2px;
+                                                  border-radius: 4px; }
+
+                                 QMenuBar::item:selected { background-color: #bcc2c9; }""")
 
         home_action = menubar.addAction("Home")
         home_action.triggered.connect(self.go_home)
