@@ -51,9 +51,9 @@ tools/vof_prediction/models/
 
 | Model | Description | Download |
 |---------|---------|---------|
-| ViViT 50→1 | 50-frame context → 1-frame prediction | [Google Drive]([LINK](https://drive.google.com/file/d/1rbynAZJaVYsv5na1AI6MKYWodc-Ywn_o/view?usp=sharing)) |
-| ViViT 50→50 | 50-frame context → 50-frame prediction | [Google Drive]([LINK](https://drive.google.com/file/d/1CvyL0um2JpwfpW8jR2BqDWI-kSJ7h4s9/view?usp=sharing)) |
-| ViViT 100→100 | 100-frame context → 100-frame prediction | [Google Drive]([LINK](https://drive.google.com/file/d/10k7JjHcYHMbsW9Sj1M5kvYepSLHwx5Dl/view?usp=sharing)) |
+| ViViT 50→1 | 50-frame context → 1-frame prediction | [Google Drive](https://drive.google.com/file/d/1rbynAZJaVYsv5na1AI6MKYWodc-Ywn_o/view?usp=sharing) |
+| ViViT 50→50 | 50-frame context → 50-frame prediction | [Google Drive](https://drive.google.com/file/d/1CvyL0um2JpwfpW8jR2BqDWI-kSJ7h4s9/view?usp=sharing) |
+| ViViT 100→100 | 100-frame context → 100-frame prediction | [Google Drive](https://drive.google.com/file/d/10k7JjHcYHMbsW9Sj1M5kvYepSLHwx5Dl/view?usp=sharing) |
 
 Expected directory structure:
 
