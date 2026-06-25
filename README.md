@@ -145,7 +145,7 @@ After the prediction process is completed, the application provides several metr
 
 ## Dataset
 
-The models were trained using datasets generated with the open-source flow solver Basilisk. The simulations consider variations in:
+The models were trained using simulations generated with the open-source flow solver Basilisk. The simulations consider variations in:
 
 - Reynolds number (Re)
 - Weber number (We)
