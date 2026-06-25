@@ -1,3 +1,6 @@
+# Pretrained models
+tools/vof_prediction/models/*.keras
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
