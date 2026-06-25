@@ -8,6 +8,7 @@ FlowML-Toolkit is an open-source graphical toolkit that provides machine learnin
 
 ## Repository structure
 
+```text
 FlowML-Toolkit/
 │
 ├── main.py                     Main application entry point
@@ -26,7 +27,8 @@ FlowML-Toolkit/
 │
 └── figures/
     └── vof_prediction/
-        └── pipeline.png        Framework overview             
+        └── pipeline.png        Framework overview
+```    
 
 ## Installation
 
@@ -156,6 +158,7 @@ covering both spreading and bouncing regimes.
 
 If you use this repository in your research, please cite:
 
+```bibtex
 @misc{deaguiar2026predictionviscoelasticdropletimpact,
       title={Prediction of Viscoelastic Droplet Impact Dynamics Using a Vision Transformer-Based Approach}, 
       author={Diego A. de Aguiar and Cassio M. Oishi},
@@ -165,3 +168,4 @@ If you use this repository in your research, please cite:
       primaryClass={physics.flu-dyn},
       url={https://arxiv.org/abs/2606.23940}, 
 }
+```
